@@ -1,0 +1,56 @@
+body{
+    background-image: url(swy3x8m15yi51.jpg);
+    background-repeat: space;
+    background-size: cover;
+    
+}
+.title{
+    color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+     
+}
+.text{
+    color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    font-size: 30px;
+    font-style: oblique;
+ 
+}
+a:link {
+    text-decoration: none;
+    color:none;
+        
+}
+a{
+    border-style: ridge;
+    border-radius: 30%;
+    color: whitesmoke;
+}
+
+.myphoto{
+    width: 3em;
+    border-radius: 50%;
+    opacity: 50%;
+}
+.movies{
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;}   
+    .h2top{
+    color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+        }
+        .aboutme{
+            float: inline-end;
+            
+        }
+        .movies_top {
+            float :inline-end;
+        }
+
+
+   
+
