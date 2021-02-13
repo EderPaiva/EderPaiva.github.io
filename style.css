@@ -3,6 +3,7 @@ body{
     background-repeat: space;
     background-size: cover;
     
+    
 }
 .title{
     color: whitesmoke;
@@ -24,9 +25,11 @@ a:link {
         
 }
 a{
-    border-style: ridge;
+        border-style: ridge;
     border-radius: 30%;
     color: whitesmoke;
+    z-index: inherit;
+    
 }
 
 .myphoto{
@@ -39,17 +42,9 @@ a{
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 30px;}   
-    .h2top{
-    color: whitesmoke;
-    font-family: 'Amatic SC', cursive;
-        }
-        .aboutme{
-            float: inline-end;
-            
-        }
-        .movies_top {
-            float :inline-end;
-        }
+    
+
+        
 
 
    
