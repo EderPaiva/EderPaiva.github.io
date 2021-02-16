@@ -43,14 +43,15 @@ a{
     border-radius: 50%;
     opacity: 50%;
 }
-.movies{
-    color: whitesmoke;
-    text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;}   
-    
 
-        
+p{
+    color: whitesmoke;
+    text-align: center top;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;}
+    
+}
+
 
 
    
