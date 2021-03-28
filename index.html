@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-        <title>Portfolio</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap">
-    <link rel="stylesheet" href="style.css">
-    
-    <style type="text/css" >
-      
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
 
-    </style> 
+
+  <style type="text/css">
+
+  </style>
 </head>
+
 <body>
-
-    <audio controls autoplay="true" loop>
-        <source src="interestellar.mp3" type="audio/mp3">
-    </audio>
-
-    <h1 class=" title "> Eder Paiva - FullStack Developer </h1>
-
-         <h2 class=" text ">  Fale algo?</h2>
-    <p class=" text ">  A criatividade de liberta de tudo, menos da loucura!</p>
-    <hr>
-
-    
+  <header>
+    <nav class="navbar navbar-light bg-light ">
+      <h1 id="title">Eder Paiva - Desenvolvedor FullStack</h1>
+      <form class="d-flex justify-content-center container-fluid justify-content-start">
         
-        <h2 class=" text "> About me - Sobre min <img src="eder_foto.jpg" alt= "Este sou eu" class="myphoto"> </h2> 
-            <ul class=" text " >
-                 <li><a href="https://www.linkedin.com/in/eder-paiva-68394584/" target="_blank"> Trajetória Profissional </a></li>
-                 <li ><a href="https://github.com/EderPaiva" target="_blank">GitHub Profile </a></li>
-                 <li ><a href="https://mywhats.net/419631" target="_blank"> WhatsAPP</a></li>
-    </ul> 
-            
-        <h2 class="text"> Filmes </h2>
-            <ul class=" text ">
-                <li> Lord of Rings and Spin Off's </li>
-                <li> Star Wars and Spin Off's  </li>
-                <li> Harry Potter and Spin Off's</li>
-                <li> Interestellar </li>
-     </ul> 
+        <a href="https://www.linkedin.com/in/eder-paiva-68394584/" target="_blank"><button
+         id="linkedin"   class="btn btn-outline-primary btn-lg" type="button"> <img src="icons/linkedin.png" alt="Linkedin" width="18px"
+              height="18px">Linkedin</button></a>
 
-    <h2 class="text">Seriados</h2>
-    <ul class=" text ">
-        <li>Altered Carbon </li>
-        <li>Mandalorian</li>
-        <li> Young Sheldon </li>
-        <li> The big bang theory</li>
-        <li> Friends </li>
-    </ul> 
-<div class="myhistory">
-    <p>Nasci em juiz de fora, sempre fui apaixonado por tecnologia com isso, um dos meu hobbies é jogos eletrônicos.
-        Quando criança joguei super nitendo, depois playstation e playstation 2. Mais tarde, na adolescência começou minha jornada
-        em um desktop e meu primeiro contato contato com criação de websites mas por não acreditar que ganharia a vida
-        com websites parti para outros lados. Com 17 fui aprendiz
-        no senai e aos 19 me formei como técnico em logística, mas minha vida profissional começou como vendedor de consórcios,
-        continuei como vendedor e ainda sou! Atualmente trabalho com energia solar. Mas cada vez mais tento alinhar minha 
-        carreira com tecnologia. Acabei de me formar como técnico em eletromecânica e atualmente faço engenharia elétrica com enfâse em sistemas
-        eletrônicos
-    </p></div>
+        <a href="https://github.com/EderPaiva" target="_blank"><button class="btn btn-lg btn-outline-secondary"
+           id="gitHub" type="button"><img src="icons/github.png" alt="giticon" width="18px" height="18px">GitHUB</button></a>
 
-    
+        <a href="https://mywhats.net/419631" target="_blank"><button id="whatsapp" class="btn btn-lg btn-outline-success" type="button"> <img
+          src="/icons/whatsapp.png" alt="whatsapp" width="18px" height="18px">Whatsapp</button></a>
+      </form>
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="sectionMain">
+      <div id="box-Skills">
+      <h2>Hard Skills</h2>
+      <ul id="hard-Skills">
+        <li><img src="/icons/browser.png" alt="">HTML 5 & Css</li>
+        <li><img src="/icons/DOM.png" alt="">DOM</li>
+        <li><img src="/icons/bootstrap.png" alt="">Bootstrap</li>
+        <li><img src="/icons/github.png" alt="">GitHUB</li>
+        <li><img src="/icons/javascript.png" alt="">JavaScriptES6</li>        
+      </ul>   
+    </div>
+    </section>
+    <section class="sectionMain">
+      <h2> About me:</h2>
+      <p>Minha paixao por tecnologia começou muito cedo, quando criança 
+        passava horas jogando no meu super-nitendo e até hoje adoro
+        jogos em pixel art.Minha carreira profissional começou na área comercial 
+        vendendo consórcio para banco volkswagen, de uma maneira inusitada e nada convencional. 
+        Até hoje trabalho na área comercial mas em algo mais ligado a tecnologia hoje trabalho 
+        como consultor de soluções energeticas como autônomo. Na minha vida academica sou aluno
+        da universidade federal de juiz de fora do curso de engenharia elétrica, sou formado 
+        também como técnico em logística e eletromecânica.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+
+  </footer>
+
+
 </body>
+
 </html>
